@@ -1,0 +1,46 @@
+RJCOPY - The Fastest File Copy System 
+====================
+Developed using python
+====================
+
+About this app,
+
+If we want to copy an file/folder without knowing the location of that file/folder, then we have to do search which 
+may take long time to find a location of the file/folder in windows. So this Application reduces that tension. It has 
+certain algorithms to perform search in less than 2 seconds.
+
+By this app, we can easily find a required file/folder with their attributes within 2 or 3 seconds and then we can copy 
+the file into the location we desired.By default Destination directory is Parent directory of this software.
+
+Features:
+ *  Faster copy than normal windows GUI ( based on ROBUST COPY)
+ *  Fastest Search
+ *  Flexible GUI
+ * "ENTER" key to perform search 
+ *  File and Folder Copy
+ *  Multiple Copy at a time
+
+Instruction:
+ 1)Gather information about the Files at first boot ( It may take upto 20 seconds at first time only)
+ 2)We can perform search up to the updation of Info_file.
+ 3)Whenever application starts updation of file information will be start automatically.
+ 4)To perform search Click "Search" button or simply press "Enter".
+ 5)Open "RJCOPY.exe" to start this application.
+
+Developer:
+ I am Raja Syed Abuthahir from KPR institute of Engineering and Technology persuing my 3rd Year in 
+ Computer Science and Engineering.
+ Contact me @
+  Mail ID          : rajasyedab@gmail.com
+  Facebook ID : www.facebook.com/rajasyedabu
+
+Thanks for Using this Application. I hope it will be comfortable for your usage.
+
+:) :) :)
+
+ 
+
+
+
+ 
+

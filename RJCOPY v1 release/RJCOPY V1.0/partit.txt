@@ -1,0 +1,14 @@
+Possible values for VolumeName along with current mount points are:
+
+    \\?\Volume{7a41ce7a-2038-11e5-825e-806e6f6e6963}\
+        C:\
+
+    \\?\Volume{f88b0297-76d0-11e5-8275-5820b1d9ced6}\
+        F:\
+
+    \\?\Volume{80aa54b8-7816-11e5-8276-806e6f6e6963}\
+        E:\
+
+    \\?\Volume{7a41d005-2038-11e5-825e-8d0ef6bd5904}\
+        D:\
+

@@ -1,0 +1,8 @@
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "threading.pyc", line 552, in __bootstrap_inner
+  File "threading.pyc", line 505, in run
+  File "RJCOPY.py", line 279, in thread_gather_fn
+  File "Tkinter.pyc", line 916, in update_idletasks
+TclError: can't invoke "update" command:  application has been destroyed
+
