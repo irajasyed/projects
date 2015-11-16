@@ -1,0 +1,82 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- The main content view -->
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <!-- Add content here -->
+      
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+  <ImageView
+      android:id="@+id/imageView1"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:layout_centerHorizontal="true"
+      android:layout_centerVertical="true"
+      android:gravity="center"
+      android:src="@drawable/tbar" />
+
+  <TextView
+      android:id="@+id/textView2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/imageView1"
+      android:layout_centerHorizontal="true"
+      android:gravity="center"
+      android:text="Create New Event"
+      android:textAppearance="?android:attr/textAppearanceLarge" />
+
+  <TextView
+      android:id="@+id/textView1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/textView2"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="58dp"
+      android:gravity="center"
+      android:text="This is the first Activity."
+      android:textAppearance="?android:attr/textAppearanceLarge" />
+
+  <Button
+      android:id="@+id/button1"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentLeft="true"
+      android:text="View Events" />
+
+  <Button
+      android:id="@+id/button2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignRight="@+id/imageView1"
+      android:layout_below="@+id/imageView1"
+      android:layout_marginTop="42dp"
+      android:text="Start"
+      android:onClick="startService" />
+
+</RelativeLayout>
+        
+    
+    </FrameLayout>
+
+    <!-- The navigation drawer -->
+    <ListView android:id="@+id/left_drawer"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="#e5e5e5"
+        android:dividerHeight="1dp"
+        android:background="#d6d6d6"/>
+</android.support.v4.widget.DrawerLayout>
